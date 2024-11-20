@@ -192,9 +192,55 @@ body {
     height: 100%;
     object-fit: cover;
 }
-@media screen and(max-width:600px) {
+.sidebar{
+    position: fixed;
+    top: 0; 
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar li{
+    width: 100%;
+  }
+  .sidebar a{
+    width: 100%;
+  }
+  .menu-button{
+    display: none;
+  }
+  
+    @media(max-width: 800px) {
+        .hideOnMobile {
+          display: none;
+        }
+        .menu-button {
+          display: block;
+        }
+        nav ul {
+          flex-direction: column; /* Make the nav links stack vertically */
+          align-items: flex-start; /* Align links to the left */
+        }
+        nav li {
+          width: 100%; /* Make each list item take the full width */
+        }
+        nav a {
+          width: 100%; /* Make the links fill the list items */
+          text-align: left; /* Align text to the left */
+          padding: 10px 20px; /* Add padding for a better touch target */
+        }
+      }
+      @media(min-width: 801px) {
+        .menu-button {
+          display: none; /* Explicitly hide the menu button for larger screens */
+        }
+      }
     
-}
-
- 
-
+      

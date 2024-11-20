@@ -18,19 +18,13 @@
                 <li class="link"><a href="home.php">HOME</a></li>
                 <li class="link"><a href="about.htm">ABOUT</a></li>
                 <li class="link"><a href="donate.php">DONATE</a></li>
-                <li class="link">
-                    <a href="">REQUESTS</a>
-            <ul class='sublink'>
-                <li>View Requests</li>
-                <li><a href="request.php">Request form </a></li>
-            </ul>
-            </li>
+                <li class="link"><a href="request.php">REQUESTS</a></li>
                 <li class="link"><a href="contact.html">CONTACT</a></li>
             </ul>
             <div class="nav_btn">
                 
-            <button class="btn btn_primary" onclick="window.location.href='login.php'";>LOGIN</button>
-            <button class="btn btn_secondary" onclick="window.location.href='signup.php'">REGISTER </button>
+            <button class="btn btn_primary" onclick="window.location.href='login.html'";>LOGIN</button>
+            <button class="btn btn_secondary" onclick="window.location.href='signup.html'">REGISTER </button>
             </div>
         </div>
     </nav>
