@@ -37,7 +37,7 @@
     <header class="header">
         <div class="header_container">
             <div class="header_content">
-                <h1>"Your Old Clothes, Their New Beginnings"</h1>
+                <h1>"Your Old Clothes, Their New Beginnings NIRUUSS"</h1>
                 <p>Instead of letting your clothes gather dust, let them create change. Every donation spreads warmth, hope, and the promise of a better tomorrow. Clean out your closet today, and give your clothes a chance to make a meaningful difference in your community.</p>
                 <div class="header_btn">
                     <button class="btn btn_primary">Learn more</button>
